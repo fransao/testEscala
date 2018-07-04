@@ -124,9 +124,9 @@ val frutas = Array ("manzana","pera","limon","mango");System.out.println("""frut
  lenguajes.foreach(l => opinion.foreach(o => println(s"$l es un lenguaje $o")));$skip(62); 
  for (l <- lenguajes) {
   println (s"$l es un buen lenguaje")
- };$skip(78); 
+ };$skip(79); 
  
- for (l <- lenguajes; o<- opinion) {
+ for (l <- lenguajes; o <- opinion) {
    println(s"$l es un lenguaje $o")
  };$skip(117); 
  

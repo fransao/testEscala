@@ -185,7 +185,7 @@ val frutas = Array ("manzana","pera","limon","mango")
                                                   //| .Net es un buen lenguaje
  }
  
- for (l <- lenguajes; o<- opinion) {
+ for (l <- lenguajes; o <- opinion) {
    println(s"$l es un lenguaje $o")               //> Java es un lenguaje Bueno
                                                   //| Java es un lenguaje Malo
                                                   //| Java es un lenguaje Regular
