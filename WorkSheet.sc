@@ -205,6 +205,7 @@ val frutas = Array ("manzana","pera","limon","mango")
                                                   //| Scala es un lenguaje aburrido
  }
 
-
+val someValue: Option[String] = Some("I am wrapped in something")
+                                                  //> someValue  : Option[String] = Some(I am wrapped in something)
   
 }

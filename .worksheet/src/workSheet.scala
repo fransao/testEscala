@@ -131,9 +131,9 @@ val frutas = Array ("manzana","pera","limon","mango");System.out.println("""frut
  };$skip(117); 
  
  for (l <- lenguajes if l.endsWith("a"); o<-opinion if o.startsWith("a")) {
-   println(s"$l es un lenguaje $o")}
- }
+   println(s"$l es un lenguaje $o")
+ };$skip(70); 
 
-
+val someValue: Option[String] = Some("I am wrapped in something");System.out.println("""someValue  : Option[String] = """ + $show(someValue ))}
   
 }
